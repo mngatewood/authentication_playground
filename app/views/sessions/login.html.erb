@@ -1,0 +1,12 @@
+<header>
+  <h1>Log In</h1>
+</header>
+<main>
+  <%= form_for @session do |f| %>
+    <%= f.label :email, "Email Address" %>
+    <%= f.text_field :email %>
+    <%= f.label :password %>
+    <%= f.text_field :password %>
+    <%= f.submit  %>
+  <%end%>
+</main>
