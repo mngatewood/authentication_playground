@@ -16,9 +16,7 @@ class SessionsController < ApplicationController
       else
         redirect_to "/users/new"
       end
-  
   end
-
 end
 
 
@@ -38,7 +36,7 @@ class SessionsController < ApplicationController
       redirect_to "/users/new"
     end
 
+    
   end
-
 end
 
