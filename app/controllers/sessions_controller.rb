@@ -35,6 +35,8 @@ class SessionsController < ApplicationController
     else
       redirect_to "/users/new"
     end
+
+    
   end
 end
 
